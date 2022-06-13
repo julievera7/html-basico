@@ -1,0 +1,15 @@
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+
+.ig-galeria{
+    width: 300px;
+}
+
+.ig-galeria:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
