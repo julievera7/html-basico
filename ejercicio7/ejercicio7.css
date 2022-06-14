@@ -1,0 +1,20 @@
+.boton {
+    background-color: gray;
+    color: black;
+    
+    
+}
+
+.boton:hover{
+    background-color: green;
+    color: white;
+}
+
+.boton span::first-line {
+    content-visibility: hidden;
+}
+
+.boton::before{
+    display: block;
+    content: 'Hecho';
+}
