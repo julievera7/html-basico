@@ -1,20 +1,21 @@
-.boton {
+.boton::before{
     background-color: gray;
     color: black;
     
-    
-}
-
-.boton:hover{
-    background-color: green;
-    color: white;
-}
-
-.boton span::first-line {
-    content-visibility: hidden;
 }
 
 .boton::before{
-    display: block;
+    content: 'Pasa por encima';
+    
+}
+.boton:hover{
+    background-color: green;
+    color: white;
+    
+}
+
+
+
+.boton:hover::before{
     content: 'Hecho';
 }
