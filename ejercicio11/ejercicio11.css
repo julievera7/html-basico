@@ -1,0 +1,19 @@
+.row { 
+    margin: 0.25rem;
+}
+
+.col-sm  {
+    background-color: lightcoral;
+}
+
+.col-md  {
+    background-color: lightgreen;
+}
+
+.col-lg  {
+    background-color: lightblue;
+}
+
+.col-xl  {
+    background-color: lightgoldenrodyellow;
+}
